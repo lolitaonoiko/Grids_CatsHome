@@ -1,5 +1,7 @@
+import s from './MainSection.module.css';
+
 const MainSection = ({ children }) => {
-    return <main>{children}</main>;
+    return <main className={s.main}>{children}</main>;
 };
 
 export default MainSection;

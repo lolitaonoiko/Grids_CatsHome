@@ -1,17 +1,14 @@
 import SocialMediaListItem from '../SocialMediaListItem/SocialMediaListItem';
+import { socialMediaData } from '../../data/socialMediaData';
 
 const SocialMediaList = () => {
     return (
         <ul>
-            <li>
-                <SocialMediaListItem />
-            </li>
-            <li>
-                <SocialMediaListItem />
-            </li>
-            <li>
-                <SocialMediaListItem />
-            </li>
+            {socialMediaData.map(item => (
+                <li key={item.id}>
+                    <SocialMediaListItem svg={item.svg} color={item.color} subs={item.subscribers} />
+                </li>
+            ))}
         </ul>
     );
 };
