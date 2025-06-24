@@ -1,5 +1,19 @@
+import AsideListItem from '../AsideListItem/AsideListItem';
+
 const AsideList = () => {
-    return <div>AsideList</div>;
+    return (
+        <ul>
+            <li>
+                <AsideListItem />
+            </li>
+            <li>
+                <AsideListItem />
+            </li>
+            <li>
+                <AsideListItem />
+            </li>
+        </ul>
+    );
 };
 
 export default AsideList;

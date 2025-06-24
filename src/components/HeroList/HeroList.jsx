@@ -1,5 +1,19 @@
+import HeroListItem from '../HeroListItem/HeroListItem';
+
 const HeroList = () => {
-    return <div>HeroList</div>;
+    return (
+        <ul>
+            <li>
+                <HeroListItem />
+            </li>
+            <li>
+                <HeroListItem />
+            </li>
+            <li>
+                <HeroListItem />
+            </li>
+        </ul>
+    );
 };
 
 export default HeroList;
