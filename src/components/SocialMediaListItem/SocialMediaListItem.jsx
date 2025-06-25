@@ -20,7 +20,7 @@ const SocialMediaListItem = ({ svg, color, subs }) => {
                 <svg width="32" height="32">
                     <use href={`/icons/sprite.svg#icon-${svg}`}></use>
                 </svg>
-                <p>{subs}</p>
+                <p className={s.text}>{subs}</p>
             </a>
         </div>
     );

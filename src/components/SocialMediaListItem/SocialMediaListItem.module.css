@@ -1,13 +1,14 @@
 .backMedia {
     border-radius: 16px;
     padding: 8px;
-    width: 140px;
+
     height: 48px;
 }
 .link {
-    display: flex;
+    display: grid;
+    grid-template-columns: 32px 1fr;
     align-items: center;
-    gap: 6px;
+    justify-items: center;
 }
 .navy {
     background-color: var(--navy);
@@ -26,4 +27,9 @@
 }
 .lilac {
     background-color: var(--lilac);
+}
+
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 1280px) {
 }

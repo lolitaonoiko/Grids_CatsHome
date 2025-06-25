@@ -1,0 +1,20 @@
+.title {
+    font-size: 28px;
+    margin-bottom: 24px;
+}
+.list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px 8px;
+    /* margin-bottom: 96px; */
+}
+@media only screen and (min-width: 768px) {
+    .list {
+        gap: 24px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .list {
+        /* margin-bottom: 60px; */
+    }
+}

@@ -1,5 +1,5 @@
 .list {
-    margin-bottom: 96px;
+    /* margin-bottom: 96px; */
     display: grid;
     gap: 12px;
     grid-template-columns: 1fr;
