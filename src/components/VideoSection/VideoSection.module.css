@@ -1,6 +1,29 @@
+.sect {
+    display: grid;
+    gap: 24px;
+}
+.title {
+    font-size: 28px;
+}
 .video {
     border: none;
     border-radius: 16px;
     width: 288px;
     height: 216px;
+    margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+    .video {
+        width: 736px;
+        height: 442px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .sect {
+        grid-area: v;
+    }
+    .video {
+        width: 360px;
+        height: 216px;
+    }
 }

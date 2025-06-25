@@ -1,0 +1,25 @@
+.footer {
+    background-color: var(--blue-light);
+}
+.footerWrap {
+    display: grid;
+    grid-template-columns: 24px 1fr;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 18px;
+}
+.title {
+    color: var(--orange);
+    letter-spacing: 0.02em;
+}
+@media only screen and (min-width: 768px) {
+    .footerWrap {
+        margin: 0 auto;
+        max-width: 768px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .footerWrap {
+        max-width: 1128px;
+    }
+}

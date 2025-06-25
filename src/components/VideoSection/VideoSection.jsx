@@ -1,8 +1,8 @@
 import s from './VideoSection.module.css';
 const VideoSection = () => {
     return (
-        <div>
-            <h2>Відео з пухнастиками</h2>
+        <section className={s.sect}>
+            <h2 className={s.title}>Відео з пухнастиками</h2>
             <iframe
                 className={s.video}
                 src="https://www.youtube.com/embed/5530I_pYjbo?si=5T5Ve8loF0vDq-lH"
@@ -11,7 +11,7 @@ const VideoSection = () => {
                 referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen
             ></iframe>
-        </div>
+        </section>
     );
 };
 

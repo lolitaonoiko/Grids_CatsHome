@@ -5,7 +5,7 @@ import s from './SocialMediaList.module.css';
 
 const SocialMediaList = () => {
     return (
-        <div>
+        <section>
             <h2 className={s.title}>Соцмережі</h2>
             <ul className={s.list}>
                 {socialMediaData.map(item => (
@@ -14,7 +14,7 @@ const SocialMediaList = () => {
                     </li>
                 ))}
             </ul>
-        </div>
+        </section>
     );
 };
 
