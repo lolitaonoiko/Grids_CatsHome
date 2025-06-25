@@ -1,12 +1,41 @@
-# React + Vite
+# Grids Cats Home 🐾
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live demo:** [grids-cats-home.vercel.app](https://grids-cats-home.vercel.app/)
 
-Currently, two official plugins are available:
+## 💡 Опис
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Це тестовий проект для практики **CSS Grid Layout**.  
+На прикладі інтерфейсу «котодому» відпрацьовуються:
 
-## Expanding the ESLint configuration
+-   створення адаптивних грід-сіток,
+-   робота з `grid-template-areas`,
+-   компонування контенту для мобілки, планшета та десктопа,
+-   сучасна верстка із використанням семантичних тегів, BEM-класів, медіа-запитів.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Проєкт побудований з використанням **React** + CSS Modules.
+
+## 🛠 Технології
+
+-   React
+-   CSS Modules
+-   Vite
+-   Grid Layout (100%)
+-   Адаптивна верстка
+
+## 📦 Запуск локально
+
+```bash
+git clone https://github.com/твій-репозиторій.git
+cd grids-cats-home
+npm install
+npm run dev
+```
+
+## 🧠 Авторка
+
+-   **💁‍♀️ Розробниця: [@lolitaonoiko](https://github.com/lolitaonoiko)**
+-   Проєкт створений у рамках навчального портфоліо.
+
+## 📜 Ліцензія
+
+Цей проєкт створений для демонстраційних цілей. Усі зображення належать їхнім відповідним авторам і використовуються з освітньою метою.
