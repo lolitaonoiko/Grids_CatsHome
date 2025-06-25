@@ -1,12 +1,10 @@
 .main {
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 96px;
+    max-width: 288px;
+    margin: 0 auto;
 }
 @media only screen and (min-width: 768px) {
     .main {
         max-width: 768px;
-        margin: 0 auto;
     }
 }
 @media only screen and (min-width: 1280px) {

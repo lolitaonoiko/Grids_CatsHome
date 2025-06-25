@@ -1,0 +1,32 @@
+.link {
+    display: grid;
+    gap: 20px;
+}
+.img {
+    border-radius: 16px;
+    width: 288px;
+    height: 170px;
+}
+.title {
+    font-size: 16px;
+    color: var(--grey);
+    margin-bottom: 12px;
+}
+.desc {
+    line-height: 1.5;
+}
+@media only screen and (min-width: 768px) {
+    .link {
+        gap: 24px;
+        grid-template-columns: 264px 1fr;
+    }
+    .img {
+        width: 264px;
+        height: 156px;
+    }
+    .title {
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+}
