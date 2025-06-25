@@ -5,7 +5,7 @@ import s from './HeroList.module.css';
 
 const HeroList = () => {
     return (
-        <ul>
+        <ul className={s.list}>
             {heroData.map(item => (
                 <li key={item.id} className={s.listItem}>
                     <HeroListItem img={item.img} img2x={item.img2x} title={item.title} />

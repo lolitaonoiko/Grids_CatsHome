@@ -4,7 +4,7 @@
     border-radius: 16px;
 }
 .boxTitle {
-    width: 288px;
+    max-width: 288px;
     height: 84px;
     background-color: rgba(47, 47, 55, 0.4);
     position: absolute;
@@ -17,6 +17,35 @@
 }
 .title {
     font-size: 16px;
-
     color: var(--common-white);
+}
+@media only screen and (min-width: 768px) {
+    .img {
+        width: 356px;
+        height: 177px;
+    }
+    .firstImg {
+        width: 357px;
+        height: 378px;
+    }
+    .boxTitle {
+        max-width: 357px;
+        height: 104px;
+    }
+    .title {
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .img {
+        width: 552px;
+        height: 280px;
+    }
+    .firstImg {
+        width: 552px;
+        height: 584px;
+    }
+    .boxTitle {
+        max-width: 552px;
+    }
 }
