@@ -1,0 +1,29 @@
+.backMedia {
+    border-radius: 16px;
+    padding: 8px;
+    width: 140px;
+    height: 48px;
+}
+.link {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.navy {
+    background-color: var(--navy);
+}
+.pink {
+    background-color: var(--pink);
+}
+.scarlet {
+    background-color: var(--scarlet);
+}
+.turq {
+    background-color: var(--turquoise);
+}
+.yellow {
+    background-color: var(--yellow);
+}
+.lilac {
+    background-color: var(--lilac);
+}

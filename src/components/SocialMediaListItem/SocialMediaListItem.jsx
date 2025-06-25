@@ -16,7 +16,7 @@ const SocialMediaListItem = ({ svg, color, subs }) => {
 
     return (
         <div className={mediaBuildClass()}>
-            <a href="#">
+            <a href="#" className={s.link}>
                 <svg width="32" height="32">
                     <use href={`/icons/sprite.svg#icon-${svg}`}></use>
                 </svg>
